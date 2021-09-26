@@ -38,6 +38,9 @@ Redis 在 3.0 版本以后就推出了**Redis Cluster**分布式解决方案，�
 
 ```
 wget https://github.com/SJFCS/Redis-Cluster-Bare-Metal-Deploy-Shell/releases/download/v0.1/Redis_Cluster_Bare_Metal_Deploy.tar && tar -xvf Redis_Cluster_Bare_Metal_Deploy.tar
+或
+wget https://songjinfeng.com/Redis_Cluster_Bare_Metal_Deploy.tar && tar -xvf Redis_Cluster_Bare_Metal_Deploy.tar
+
 ```
 
 ## redis一键安装脚本
