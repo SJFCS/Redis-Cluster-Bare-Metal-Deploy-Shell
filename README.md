@@ -34,11 +34,12 @@ Redis 在 3.0 版本以后就推出了**Redis Cluster**分布式解决方案，�
 
 ## 脚本使用方式
 
-使用curl免下载运行
+使用wget下载运行
 
 ```
-curl -L songjinfeng.com/Redis Cluster（Bare Metal）Deploy.sh | bash 
-curl -L songjinfeng.com/redis-manager.sh | bash -s  [start|stop|status|restart|log|config|pid]
+wget songjinfeng.com/redis-deploy.sh
+wget songjinfeng.com/redis-manager.sh
+wget songjinfeng.com/Redis_Cluster_Bare_Metal_Deploy.tar.gz
 ```
 
 使用gti clone到本地运行
