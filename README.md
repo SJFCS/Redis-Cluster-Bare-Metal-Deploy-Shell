@@ -37,16 +37,8 @@ Redis 在 3.0 版本以后就推出了**Redis Cluster**分布式解决方案，�
 使用wget下载运行
 
 ```
-wget songjinfeng.com/redis-deploy.sh
-wget songjinfeng.com/redis-manager.sh
-wget songjinfeng.com/Redis_Cluster_Bare_Metal_Deploy.tar.gz
+wget https://github.com/SJFCS/Redis-Cluster-Bare-Metal-Deploy-Shell/releases/download/v0.1/Redis_Cluster_Bare_Metal_Deploy.tar && tar -xvf Redis_Cluster_Bare_Metal_Deploy.tar
 ```
-
-使用gti clone到本地运行
-
-~~~
-git clone https://github.com/SJFCS/Redis-Cluster-Bare-Metal-Deploy-Shell.git
-~~~
 
 ## redis一键安装脚本
 
@@ -56,7 +48,7 @@ git clone https://github.com/SJFCS/Redis-Cluster-Bare-Metal-Deploy-Shell.git
 # Author        : SongJinfeng
 # Email         : Song.Jinfeng@outlook.com
 # Last modified : 2021-09-26
-# Filename      : Redis Cluster（Bare Metal）Deploy.sh
+# Filename      : redis-deploy.sh
 # Description   : 每台Redis Cluster节点都要运行，你可以通过修改Products_Dir和Port实现部署伪分布式集群
 #########################################################
 # 版本
