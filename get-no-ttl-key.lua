@@ -1,4 +1,6 @@
 # redis-cli -h 127.0.0.1 -p 6379 -a password --eval get-no-ttl-key.lua 
+# docker run --network=host -v$PWD:/app -d --name myredis -p 6379:6379 redis --requirepass "password"
+
 local result = {};
 local done = false;
 local cursor = "0";
